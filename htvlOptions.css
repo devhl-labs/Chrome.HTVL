@@ -1,0 +1,136 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	background-image: url('images/grey_wash_wall.png');
+	background: #e1e1e1;
+}
+
+header{
+	height: 50px;
+	width: 100%;
+	background: -webkit-linear-gradient(top,#424141 0,#111111 100%);
+	
+}
+
+header ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+header > ul > li{
+	float: left;
+	display: inline-block;
+	width: 110px;
+	text-align: center;
+	padding: 15px;
+	color: azure;
+	cursor: pointer;
+}
+header > ul > li:last-child{
+	float: left;
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+	padding: 15px;
+	color: azure;
+	cursor: pointer;
+}
+.selected{
+	background: black;
+	
+}	
+
+#otherOptions, #hidden{
+	position: absolute;
+	padding-left: 30px;
+	width: 100%;
+	left: 0px;
+}
+
+#divRecordings{
+    display: none;
+}
+
+#pgHidden{
+    padding-left: 20px;
+}
+
+#divSettings{
+	padding-left: 30px;
+	width: 15%;
+	left: 0px;
+        float: left;
+        margin-top: 10px;
+}
+
+#divRecordings{
+	padding-left: 80px;
+	width: 15%;
+	left: 0px;
+        float: left;
+        margin-top: 10px;
+}
+#divFilters{
+	padding-left: 80px;
+	width: 15%;
+	left: 0px;
+        float: left;
+}
+
+.customFilter{
+    display: none;
+}
+
+#f0{
+    display: block;
+}
+
+header ul li div{
+	color: firebrick;
+	font-size: 150%;
+	font-family: sans-serif;
+	font-weight:bold;
+}	
+
+select{
+	display: block;
+	float: left;
+	margin-top: 15px;
+}
+
+#filterFields{
+	float: left;
+	margin-top: -5px;
+	margin-left: 30px;
+}
+
+#otherOptions{
+	display: block;
+	float: left;
+	margin-top: 15px;
+}
+
+.help{
+	font-size: 150%;
+}
+.help li{
+	margin: 0 0 20px 0;
+}
+
+#ClearHidden, #printSync, #clearSync{
+    width: 100%;
+}
+
+
+
+
+
+
+
+

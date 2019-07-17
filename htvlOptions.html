@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+<head>
+    <title>htvl Options</title>
+    <script src="jquery-1.7.2.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="htvlOptions.css">
+</head>
+<body>
+
+    <header>
+        <ul>
+            <li style="width: 150px; cursor: initial;"><div style="cursor: default;">htvlOptions</div></li>
+            <li id="btnSettings">Settings</li>
+            <li id="btnHidden">Hidden</li>
+<!--            <li id="btnHelp">Help</li>-->
+            <li id="btnMoreFromDeveloper">More From Developer</li>
+        </ul>
+    </header>
+
+
+
+    <div id="pgSettings">
+        <div id="divSettings">
+            <table>
+                <tr>
+                    <th><label for="autoReload">Auto Reload</label></th>
+                    <td><input type="checkbox" id="autoReload" class="toggle"/></td>
+                </tr>
+                <!--<tr>
+                    <th><label for="enableFavorites">Enable Favorites</label></th>
+                    <td><input type="checkbox" id="enableFavorites" class="toggle"/></td>
+                </tr>-->
+                <tr>
+                    <th>Debug</th>
+                    <td><input type="checkbox" id="debug" class="toggle"/></td>
+                </tr>
+                <tr>
+                     <th><input type="button" value="Clear Hidden Channels" id="ClearHidden" name="ClearHidden"/></th>
+                     <td></td>
+                </tr>
+                <tr>
+                     <th><input type="button" value="Clear Favorite Channels" id="ClearFavorites" name="ClearFavorite"/></th>
+                     <td></td>
+                </tr>
+                <tr>
+                    <th><input type="button" id="printSync" value="Debug Settings" /></th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th><input type="button" id="clearSync" value="Clear All Settings" /></th>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        
+        <div id="divRecordings">
+            <table id="tblRecording">
+                <tr>
+                    <th align="left"><input type="checkbox" id="lnkRecording" class="toggle"/><label for="lnkRecording">Recording</label></th>
+                </tr>
+            </table>
+        </div>  
+        
+        <div id="divFilters">    
+            <select>
+                <option value="0">Button 0</option>
+                <option value="1">Button 1</option>
+                <option value="2">Button 2</option>
+                <option value="3">Button 3</option>
+                <option value="4">Button 4</option>
+                <option value="5">Button 5</option>
+                <option value="6">Button 6</option>
+                <option value="7">Button 7</option>
+                <option value="8">Button 8</option>
+                <option value="9">Button 9</option>		
+            </select>
+            
+            <div id="f0" class="customFilter">
+                <table id="tblb0">
+                    <tr>
+                        <td>Enabled</td>
+                        <td><input type="checkbox" id="b0" class="toggle"/></td>
+                    </tr>
+                    <tr>
+                        <td>title</td>
+                        <td><input type="text" id="btitle0" class="title"/></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="f1" class="customFilter">
+                <table id="tblb1">
+                    <tr>
+                        <td>Enabled</td>
+                        <td><input type="checkbox" id="b1" class="toggle"/></td>
+                    </tr>
+                    <tr>
+                        <td>title</td>
+                        <td><input type="text" id="btitle1" class="title"/></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="f2" class="customFilter">	
+                <table id="tblb2">
+                    <tr>
+                        <td>Enabled</td>
+                        <td><input type="checkbox" id="b2" class="toggle"/></td>
+                    </tr>
+                    <tr>
+                        <td>title</td>
+                        <td><input type="text" id="btitle2" class="title"/></td>
+                    </tr>
+                </table>	
+            </div>
+
+            <div id="f3" class="customFilter">
+                <table id="tblb3">
+                    <tr>
+                        <td>Enabled</td>
+                        <td><input type="checkbox" id="b3" class="toggle"/></td>
+                    </tr>
+                    <tr>
+                        <td>title</td>
+                        <td><input type="text" id="btitle3" class="title"/></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="f4" class="customFilter">	
+                <table id="tblb4">
+                    <tr>
+                        <td>Enabled</td>
+                        <td><input type="checkbox" id="b4" class="toggle"/></td>
+                    </tr>
+                    <tr>
+                        <td>title</td><td><input type="text" id="btitle4" class="title"/></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="f5" class="customFilter">	
+                <table id="tblb5">
+                    <tr>
+                        <td>Enabled</td>
+                        <td><input type="checkbox" id="b5" class="toggle"/></td>
+                    </tr>
+                    <tr>
+                        <td>title</td>
+                        <td><input type="text" id="btitle5" class="title"/></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="f6" class="customFilter">	
+                <table id="tblb6">
+                    <tr>
+                        <td>Enabled</td>
+                        <td><input type="checkbox" id="b6" class="toggle"/></td>
+                    </tr>
+                    <tr>
+                        <td>title</td>
+                        <td><input type="text" id="btitle6" class="title"/></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="f7" class="customFilter">	
+                <table id="tblb7">
+                    <tr>
+                        <td>Enabled</td>
+                        <td><input type="checkbox" id="b7" class="toggle"/></td>
+                    </tr>
+                    <tr>
+                        <td>title</td>
+                        <td><input type="text" id="btitle7" class="title"/></td>
+                    </tr>
+                </table>
+            </div>		
+
+            <div id="f8" class="customFilter">
+                <table id="tblb8">
+                    <tr>
+                        <td>Enabled</td>
+                        <td><input type="checkbox" id="b8" class="toggle"/></td>
+                    </tr>
+                    <tr>
+                        <td>title</td>
+                        <td><input type="text" id="btitle8" class="title"/></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="f9" class="customFilter">	
+                <table id="tblb9">
+                    <tr>
+                        <td>Enabled</td>
+                        <td><input type="checkbox" id="b9" class="toggle"/></td>
+                    </tr>
+                    <tr>
+                        <td>title</td>
+                        <td><input type="text" id="btitle9" class="title"/></td>
+                    </tr>
+                </table>
+            </div>
+        </div>    
+    </div>
+
+    <div id="pgHidden">
+        <h3>These channels will be hidden:</h3>
+        <br  />
+        <div id="hiddenChannels" style="-webkit-column-count: 8; -webkit-column-gap: 0px;"></div>
+    </div>
+    
+    <div id="pgHelp">
+        <ul class="help">
+            <li>Moving the cursor between fields will save the data.</li>
+            <li>The recordings button WILL NOT make your box record a show.</li>
+            <li>Please report bugs and suggest new features!</li>
+        </ul>
+    </div>
+        
+    <script src="htvlOptions.js"></script>
+</body>
+</html>
